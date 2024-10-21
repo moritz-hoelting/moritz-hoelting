@@ -10,13 +10,13 @@ let moritz = Person {
     occupation: Student {
         subject: "Computer Science", 
         location: "Paderborn University",
-        semester: (4, Degree::Bachelor)
+        semester: (5, Degree::Bachelor)
     },
     languages: vec!["german", "english"],
     code: vec!["Typescript", "Python", "Rust", "HTML", "CSS", "Java", "SQL"],
     pronouns: ("he", "him"),
     technologies: Technologies {
-        backend: vec!["Node.js", "Rocket.rs"],
+        backend: vec!["Node.js", "actix-web"],
         frontend: vec!["Astro.js", "Next.js"],
         devops: vec!["Docker"],
         misc: vec!["Git", "GitHub"]
