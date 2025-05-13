@@ -6,11 +6,11 @@
 ```rust
 let moritz = Person {
     name: "Moritz",
-    age: 20,
+    age: 21,
     occupation: Student {
         subject: "Computer Science", 
         location: "Paderborn University",
-        semester: (5, Degree::Bachelor)
+        semester: (6, Degree::Bachelor)
     },
     languages: vec!["german", "english"],
     code: vec!["Typescript", "Python", "Rust", "HTML", "CSS", "Java", "SQL"],
